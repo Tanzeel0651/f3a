@@ -1,0 +1,46 @@
+.Rules {
+  overflow: auto;
+  width: 90%;
+  margin: 40px auto;
+  padding: 30px 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+ol {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+  counter-reset: li;
+
+  li {
+    position: relative;
+    display: block;
+    min-height: 35px;
+    margin: 10px 0;
+    padding-top: 4px;
+    padding-left: 50px;
+
+    &:before {
+      content: counter(li);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      border: 1px solid #000;
+      border-radius: 50%;
+      background-color: #d5d5d5;
+      color: #000;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 30px;
+      counter-increment: li;
+      text-align: center;
+    }
+  } //li
+} //ol

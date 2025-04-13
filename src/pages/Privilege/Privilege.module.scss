@@ -1,0 +1,71 @@
+.heading{
+  position: relative;
+  margin-left: 2%;
+  font-size: 38px;
+  margin-top: 3%;
+}
+.headingCreate{
+  // display: block;
+  font-size: 70%;
+  text-decoration: none;
+  padding-left: 1.5%;
+}
+
+.scroll{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.mainContainer {
+  flex-direction: column;
+  display: flex;
+  padding-top: 3%;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.rolesTable{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+.tableStyle2 th {
+  font-size: large;
+  border-style: none; 
+  border-collapse: collapse;
+  text-align: left;
+}
+
+
+.tableStyle2 td {
+   border-collapse: collapse;
+   border-bottom: none;
+   text-align: left;
+   font-size: large;
+ }
+
+ .inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.roleSelect {
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid grey;
+  font-size: large;
+}
+
+
+
+
